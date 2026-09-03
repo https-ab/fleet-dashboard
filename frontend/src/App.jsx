@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useFleet } from "./hooks/useFleet.js";
-import SiteMap from "./components/SiteMap.jsx";
+import SiteMap from "./components/Sitemap.jsx";
 import RobotDetail from "./components/RobotDetail.jsx";
 import TrendChart from "./components/TrendChart.jsx";
 import RobotList from "./components/RobotList.jsx";
