@@ -1,0 +1,16 @@
+{
+  "name": "fleet-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ingests robot reports over WebSocket, keeps current fleet state, serves dashboards.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,710 @@
+
+> fleet-management@1.0.0 start
+> node simulator.js
+
+[simulator] 8 robots, one report every 1000ms
+{"t":0,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.6}
+{"t":0,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.7}
+{"t":0,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":0,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.5}
+{"t":0,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":0,"robot_id":"r6","x":578.9,"y":303.4,"status":"idle","battery":34.7}
+{"t":0,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97.1}
+{"t":0,"robot_id":"r8","x":716.1,"y":23.4,"status":"idle","battery":97.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":1,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.6}
+{"t":1,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.7}
+{"t":1,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":1,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":1,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":1,"robot_id":"r6","x":577.4,"y":304.1,"status":"active","battery":34.6}
+{"t":1,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97.1}
+{"t":1,"robot_id":"r8","x":716.1,"y":23.4,"status":"idle","battery":97.3}
+{"t":2,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.6}
+{"t":2,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.7}
+{"t":2,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":2,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":2,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":2,"robot_id":"r6","x":576,"y":304.7,"status":"active","battery":34.5}
+{"t":2,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97.1}
+{"t":2,"robot_id":"r8","x":716.1,"y":23.4,"status":"idle","battery":97.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":3,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":3,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.7}
+{"t":3,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":3,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":3,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":3,"robot_id":"r6","x":574.5,"y":305.4,"status":"active","battery":34.4}
+{"t":3,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97.1}
+{"t":3,"robot_id":"r8","x":716.1,"y":23.4,"status":"idle","battery":97.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":4,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":4,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.7}
+{"t":4,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":4,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":4,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":4,"robot_id":"r6","x":573.1,"y":306,"status":"active","battery":34.3}
+{"t":4,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97.1}
+{"t":4,"robot_id":"r8","x":716.1,"y":23.4,"status":"idle","battery":97.3}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":5,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":5,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":5,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.9}
+{"t":5,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":5,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57.1}
+{"t":5,"robot_id":"r6","x":571.6,"y":306.7,"status":"active","battery":34.2}
+{"t":5,"robot_id":"r7","x":209.6,"y":326.4,"status":"idle","battery":97}
+{"t":5,"robot_id":"r8","x":713.8,"y":25.4,"status":"active","battery":97.2}
+{"t":6,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":6,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":6,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.8}
+{"t":6,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":6,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":6,"robot_id":"r6","x":570.2,"y":307.3,"status":"active","battery":34.1}
+{"t":6,"robot_id":"r7","x":211.8,"y":325.7,"status":"active","battery":96.9}
+{"t":6,"robot_id":"r8","x":711.5,"y":27.4,"status":"active","battery":97.1}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":7,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":7,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":7,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.8}
+{"t":7,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.4}
+{"t":7,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":7,"robot_id":"r6","x":568.7,"y":308,"status":"active","battery":34}
+{"t":7,"robot_id":"r7","x":214,"y":325,"status":"active","battery":96.8}
+{"t":7,"robot_id":"r8","x":709.2,"y":29.4,"status":"active","battery":97}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":8,"robot_id":"r1","x":569.9,"y":33,"status":"idle","battery":73.5}
+{"t":8,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":8,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.8}
+{"t":8,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":8,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":8,"robot_id":"r6","x":567.3,"y":308.6,"status":"active","battery":33.9}
+{"t":8,"robot_id":"r7","x":216.2,"y":324.2,"status":"active","battery":96.7}
+{"t":8,"robot_id":"r8","x":706.9,"y":31.4,"status":"active","battery":96.9}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":9,"robot_id":"r1","x":571.3,"y":34.9,"status":"active","battery":73.4}
+{"t":9,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":9,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.8}
+{"t":9,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":9,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":9,"robot_id":"r6","x":565.8,"y":309.3,"status":"active","battery":33.8}
+{"t":9,"robot_id":"r7","x":218.4,"y":323.5,"status":"active","battery":96.6}
+{"t":9,"robot_id":"r8","x":704.6,"y":33.4,"status":"active","battery":96.8}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":10,"robot_id":"r1","x":572.8,"y":36.8,"status":"active","battery":73.3}
+{"t":10,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.6}
+{"t":10,"robot_id":"r3","x":382.9,"y":35.5,"status":"idle","battery":37.8}
+{"t":10,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":10,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":10,"robot_id":"r6","x":564.4,"y":309.9,"status":"active","battery":33.7}
+{"t":10,"robot_id":"r7","x":220.6,"y":322.8,"status":"on_mission","battery":96.5}
+{"t":10,"robot_id":"r8","x":702.3,"y":35.3,"status":"active","battery":96.7}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":11,"robot_id":"r1","x":574.2,"y":38.6,"status":"active","battery":73.2}
+{"t":11,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":11,"robot_id":"r3","x":384.8,"y":37.9,"status":"active","battery":37.7}
+{"t":11,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":11,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":57}
+{"t":11,"robot_id":"r6","x":562.9,"y":310.6,"status":"active","battery":33.6}
+{"t":11,"robot_id":"r7","x":222.7,"y":322.1,"status":"on_mission","battery":96.4}
+{"t":11,"robot_id":"r8","x":700,"y":37.3,"status":"active","battery":96.6}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":12,"robot_id":"r1","x":575.6,"y":40.5,"status":"active","battery":73.1}
+{"t":12,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":12,"robot_id":"r3","x":386.7,"y":40.3,"status":"active","battery":37.6}
+{"t":12,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":12,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":12,"robot_id":"r6","x":561.5,"y":311.2,"status":"active","battery":33.5}
+{"t":12,"robot_id":"r7","x":224.9,"y":321.4,"status":"on_mission","battery":96.3}
+{"t":12,"robot_id":"r8","x":697.7,"y":39.3,"status":"active","battery":96.5}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":13,"robot_id":"r1","x":577.1,"y":42.4,"status":"active","battery":73}
+{"t":13,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":13,"robot_id":"r3","x":388.6,"y":42.7,"status":"active","battery":37.5}
+{"t":13,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.3}
+{"t":13,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":13,"robot_id":"r6","x":560,"y":311.9,"status":"active","battery":33.4}
+{"t":13,"robot_id":"r7","x":227.1,"y":320.6,"status":"on_mission","battery":96.2}
+{"t":13,"robot_id":"r8","x":695.4,"y":41.3,"status":"active","battery":96.4}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":14,"robot_id":"r1","x":578.5,"y":44.3,"status":"active","battery":72.9}
+{"t":14,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":14,"robot_id":"r3","x":390.5,"y":45.1,"status":"active","battery":37.4}
+{"t":14,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.2}
+{"t":14,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":14,"robot_id":"r6","x":558.6,"y":312.5,"status":"active","battery":33.3}
+{"t":14,"robot_id":"r7","x":229.3,"y":319.9,"status":"on_mission","battery":96.1}
+{"t":14,"robot_id":"r8","x":693.1,"y":43.3,"status":"active","battery":96.3}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":15,"robot_id":"r1","x":579.9,"y":46.2,"status":"active","battery":72.8}
+{"t":15,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":15,"robot_id":"r3","x":392.4,"y":47.6,"status":"active","battery":37.3}
+{"t":15,"robot_id":"r4","x":208,"y":282.8,"status":"idle","battery":95.2}
+{"t":15,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":15,"robot_id":"r6","x":557.1,"y":313.2,"status":"active","battery":33.2}
+{"t":15,"robot_id":"r7","x":231.5,"y":319.2,"status":"on_mission","battery":96}
+{"t":15,"robot_id":"r8","x":690.8,"y":45.3,"status":"active","battery":96.2}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":16,"robot_id":"r1","x":581.4,"y":48.1,"status":"on_mission","battery":72.7}
+{"t":16,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":16,"robot_id":"r3","x":394.3,"y":50,"status":"active","battery":37.2}
+{"t":16,"robot_id":"r4","x":205.4,"y":284.6,"status":"active","battery":95.1}
+{"t":16,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":16,"robot_id":"r6","x":555.7,"y":313.8,"status":"active","battery":33.1}
+{"t":16,"robot_id":"r7","x":233.7,"y":318.5,"status":"on_mission","battery":95.9}
+{"t":16,"robot_id":"r8","x":688.5,"y":47.3,"status":"active","battery":96.1}
+{"t":17,"robot_id":"r1","x":582.8,"y":49.9,"status":"on_mission","battery":72.5}
+{"t":17,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.5}
+{"t":17,"robot_id":"r3","x":396.2,"y":52.4,"status":"active","battery":37.1}
+{"t":17,"robot_id":"r4","x":202.7,"y":286.4,"status":"active","battery":95}
+{"t":17,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":17,"robot_id":"r6","x":554.2,"y":314.5,"status":"active","battery":33}
+{"t":17,"robot_id":"r7","x":235.9,"y":317.8,"status":"on_mission","battery":95.8}
+{"t":17,"robot_id":"r8","x":686.2,"y":49.3,"status":"active","battery":96}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":18,"robot_id":"r1","x":584.2,"y":51.8,"status":"on_mission","battery":72.4}
+{"t":18,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.4}
+{"t":18,"robot_id":"r3","x":398.1,"y":54.8,"status":"active","battery":37}
+{"t":18,"robot_id":"r4","x":200.1,"y":288.2,"status":"active","battery":94.9}
+{"t":18,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.9}
+{"t":18,"robot_id":"r6","x":552.8,"y":315.1,"status":"active","battery":32.9}
+{"t":18,"robot_id":"r7","x":238.1,"y":317,"status":"on_mission","battery":95.7}
+{"t":18,"robot_id":"r8","x":683.9,"y":51.3,"status":"active","battery":95.9}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":19,"robot_id":"r1","x":585.7,"y":53.7,"status":"on_mission","battery":72.3}
+{"t":19,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.4}
+{"t":19,"robot_id":"r3","x":400,"y":57.2,"status":"active","battery":36.9}
+{"t":19,"robot_id":"r4","x":197.4,"y":289.9,"status":"active","battery":94.8}
+{"t":19,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":19,"robot_id":"r6","x":551.3,"y":315.8,"status":"active","battery":32.8}
+{"t":19,"robot_id":"r7","x":240.3,"y":316.3,"status":"on_mission","battery":95.5}
+{"t":19,"robot_id":"r8","x":681.6,"y":53.3,"status":"active","battery":95.8}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":20,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":20,"robot_id":"r2","x":787.3,"y":65.2,"status":"idle","battery":69.4}
+{"t":20,"robot_id":"r3","x":401.9,"y":59.6,"status":"active","battery":36.8}
+{"t":20,"robot_id":"r4","x":194.8,"y":291.7,"status":"active","battery":94.7}
+{"t":20,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":20,"robot_id":"r6","x":549.9,"y":316.4,"status":"active","battery":32.7}
+{"t":20,"robot_id":"r7","x":242.5,"y":315.6,"status":"on_mission","battery":95.4}
+{"t":20,"robot_id":"r8","x":679.4,"y":55.2,"status":"active","battery":95.7}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":21,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":21,"robot_id":"r2","x":786.1,"y":68.2,"status":"active","battery":69.3}
+{"t":21,"robot_id":"r3","x":403.8,"y":62,"status":"active","battery":36.7}
+{"t":21,"robot_id":"r4","x":192.1,"y":293.5,"status":"active","battery":94.6}
+{"t":21,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":21,"robot_id":"r6","x":548.4,"y":317.1,"status":"active","battery":32.6}
+{"t":21,"robot_id":"r7","x":244.7,"y":314.9,"status":"on_mission","battery":95.3}
+{"t":21,"robot_id":"r8","x":677.1,"y":57.2,"status":"active","battery":95.6}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":22,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":22,"robot_id":"r2","x":784.9,"y":71.2,"status":"active","battery":69.2}
+{"t":22,"robot_id":"r3","x":405.7,"y":64.4,"status":"active","battery":36.6}
+{"t":22,"robot_id":"r4","x":189.5,"y":295.3,"status":"active","battery":94.5}
+{"t":22,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":22,"robot_id":"r6","x":547,"y":317.7,"status":"active","battery":32.5}
+{"t":22,"robot_id":"r7","x":246.9,"y":314.2,"status":"on_mission","battery":95.2}
+{"t":22,"robot_id":"r8","x":674.8,"y":59.2,"status":"on_mission","battery":95.5}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":23,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":23,"robot_id":"r2","x":783.7,"y":74.2,"status":"active","battery":69.1}
+{"t":23,"robot_id":"r3","x":405.7,"y":64.4,"status":"error","battery":36.6}
+{"t":23,"robot_id":"r4","x":186.8,"y":297.1,"status":"active","battery":94.4}
+{"t":23,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":23,"robot_id":"r6","x":545.5,"y":318.4,"status":"active","battery":32.4}
+{"t":23,"robot_id":"r7","x":249,"y":313.4,"status":"on_mission","battery":95.1}
+{"t":23,"robot_id":"r8","x":672.5,"y":61.2,"status":"on_mission","battery":95.4}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":24,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":24,"robot_id":"r2","x":782.5,"y":77.2,"status":"active","battery":69}
+{"t":24,"robot_id":"r3","x":405.7,"y":64.4,"status":"error","battery":36.6}
+{"t":24,"robot_id":"r4","x":184.2,"y":298.9,"status":"active","battery":94.3}
+{"t":24,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":24,"robot_id":"r6","x":544.1,"y":319.1,"status":"active","battery":32.3}
+{"t":24,"robot_id":"r7","x":251.2,"y":312.7,"status":"on_mission","battery":95}
+{"t":24,"robot_id":"r8","x":670.2,"y":63.2,"status":"on_mission","battery":95.2}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":25,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":25,"robot_id":"r2","x":781.3,"y":80.2,"status":"active","battery":68.9}
+{"t":25,"robot_id":"r3","x":405.7,"y":64.4,"status":"error","battery":36.6}
+{"t":25,"robot_id":"r4","x":181.5,"y":300.7,"status":"active","battery":94.2}
+{"t":25,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.8}
+{"t":25,"robot_id":"r6","x":542.6,"y":319.7,"status":"active","battery":32.2}
+{"t":25,"robot_id":"r7","x":253.4,"y":312,"status":"on_mission","battery":94.9}
+{"t":25,"robot_id":"r8","x":667.9,"y":65.2,"status":"on_mission","battery":95.1}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":26,"robot_id":"r1","x":585.7,"y":53.7,"status":"error","battery":72.3}
+{"t":26,"robot_id":"r2","x":780.1,"y":83.2,"status":"active","battery":68.8}
+{"t":26,"robot_id":"r3","x":405.7,"y":64.4,"status":"error","battery":36.5}
+{"t":26,"robot_id":"r4","x":178.9,"y":302.4,"status":"active","battery":94.1}
+{"t":26,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.7}
+{"t":26,"robot_id":"r6","x":541.2,"y":320.4,"status":"active","battery":32.1}
+{"t":26,"robot_id":"r7","x":255.6,"y":311.3,"status":"on_mission","battery":94.8}
+{"t":26,"robot_id":"r8","x":665.6,"y":67.2,"status":"on_mission","battery":95}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":27,"robot_id":"r1","x":585.7,"y":53.7,"status":"maintenance","battery":72.2}
+{"t":27,"robot_id":"r2","x":778.9,"y":86.2,"status":"active","battery":68.7}
+{"t":27,"robot_id":"r3","x":405.7,"y":64.4,"status":"error","battery":36.5}
+{"t":27,"robot_id":"r4","x":176.3,"y":304.2,"status":"active","battery":94}
+{"t":27,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.7}
+{"t":27,"robot_id":"r6","x":539.7,"y":321,"status":"active","battery":32}
+{"t":27,"robot_id":"r7","x":257.8,"y":310.6,"status":"on_mission","battery":94.7}
+{"t":27,"robot_id":"r8","x":663.3,"y":69.2,"status":"on_mission","battery":94.9}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":28,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":28,"robot_id":"r2","x":777.8,"y":89.2,"status":"active","battery":68.6}
+{"t":28,"robot_id":"r3","x":405.7,"y":64.4,"status":"maintenance","battery":36.5}
+{"t":28,"robot_id":"r4","x":173.6,"y":306,"status":"active","battery":93.9}
+{"t":28,"robot_id":"r5","x":42.8,"y":123.4,"status":"idle","battery":56.7}
+{"t":28,"robot_id":"r6","x":538.3,"y":321.7,"status":"active","battery":31.9}
+{"t":28,"robot_id":"r7","x":260,"y":309.8,"status":"on_mission","battery":94.6}
+{"t":28,"robot_id":"r8","x":661,"y":71.2,"status":"on_mission","battery":94.8}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":29,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":29,"robot_id":"r2","x":776.6,"y":92.2,"status":"active","battery":68.5}
+{"t":29,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.5}
+{"t":29,"robot_id":"r4","x":171,"y":307.8,"status":"active","battery":93.8}
+{"t":29,"robot_id":"r5","x":45.2,"y":125.7,"status":"active","battery":56.6}
+{"t":29,"robot_id":"r6","x":536.8,"y":322.3,"status":"active","battery":31.8}
+{"t":29,"robot_id":"r7","x":262.2,"y":309.1,"status":"on_mission","battery":94.4}
+{"t":29,"robot_id":"r8","x":661,"y":71.2,"status":"blocked","battery":94.8}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":30,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":30,"robot_id":"r2","x":775.4,"y":95.2,"status":"active","battery":68.4}
+{"t":30,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.5}
+{"t":30,"robot_id":"r4","x":168.3,"y":309.6,"status":"active","battery":93.7}
+{"t":30,"robot_id":"r5","x":47.5,"y":128.1,"status":"active","battery":56.5}
+{"t":30,"robot_id":"r6","x":535.4,"y":323,"status":"on_mission","battery":31.7}
+{"t":30,"robot_id":"r7","x":264.4,"y":308.4,"status":"on_mission","battery":94.3}
+{"t":30,"robot_id":"r8","x":661,"y":71.2,"status":"blocked","battery":94.8}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":31,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":31,"robot_id":"r2","x":774.2,"y":98.2,"status":"active","battery":68.3}
+{"t":31,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.5}
+{"t":31,"robot_id":"r4","x":165.7,"y":311.4,"status":"active","battery":93.6}
+{"t":31,"robot_id":"r5","x":49.9,"y":130.4,"status":"active","battery":56.4}
+{"t":31,"robot_id":"r6","x":533.9,"y":323.6,"status":"on_mission","battery":31.6}
+{"t":31,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.3}
+{"t":31,"robot_id":"r8","x":661,"y":71.2,"status":"blocked","battery":94.7}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":32,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":32,"robot_id":"r2","x":773,"y":101.2,"status":"active","battery":68.2}
+{"t":32,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.5}
+{"t":32,"robot_id":"r4","x":163,"y":313.2,"status":"active","battery":93.5}
+{"t":32,"robot_id":"r5","x":52.2,"y":132.8,"status":"active","battery":56.3}
+{"t":32,"robot_id":"r6","x":532.5,"y":324.3,"status":"on_mission","battery":31.5}
+{"t":32,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.3}
+{"t":32,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":33,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.2}
+{"t":33,"robot_id":"r2","x":771.8,"y":104.2,"status":"active","battery":68.1}
+{"t":33,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":33,"robot_id":"r4","x":160.4,"y":315,"status":"active","battery":93.4}
+{"t":33,"robot_id":"r5","x":54.6,"y":135.1,"status":"active","battery":56.2}
+{"t":33,"robot_id":"r6","x":531,"y":324.9,"status":"active","battery":31.4}
+{"t":33,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.3}
+{"t":33,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":34,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":34,"robot_id":"r2","x":770.6,"y":107.2,"status":"active","battery":68}
+{"t":34,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":34,"robot_id":"r4","x":157.7,"y":316.7,"status":"active","battery":93.3}
+{"t":34,"robot_id":"r5","x":56.9,"y":137.5,"status":"active","battery":56.1}
+{"t":34,"robot_id":"r6","x":529.6,"y":325.6,"status":"active","battery":31.3}
+{"t":34,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.3}
+{"t":34,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":35,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":35,"robot_id":"r2","x":769.4,"y":110.2,"status":"active","battery":67.9}
+{"t":35,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":35,"robot_id":"r4","x":155.1,"y":318.5,"status":"active","battery":93.2}
+{"t":35,"robot_id":"r5","x":59.3,"y":139.8,"status":"active","battery":56}
+{"t":35,"robot_id":"r6","x":529.6,"y":325.6,"status":"blocked","battery":31.3}
+{"t":35,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.2}
+{"t":35,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+{"t":36,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":36,"robot_id":"r2","x":768.2,"y":113.2,"status":"active","battery":67.8}
+{"t":36,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":36,"robot_id":"r4","x":152.4,"y":320.3,"status":"active","battery":93.1}
+{"t":36,"robot_id":"r5","x":61.6,"y":142.2,"status":"active","battery":55.9}
+{"t":36,"robot_id":"r6","x":529.6,"y":325.6,"status":"blocked","battery":31.2}
+{"t":36,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.2}
+{"t":36,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":37,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":37,"robot_id":"r2","x":767,"y":116.2,"status":"active","battery":67.7}
+{"t":37,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":37,"robot_id":"r4","x":149.8,"y":322.1,"status":"active","battery":93}
+{"t":37,"robot_id":"r5","x":64,"y":144.5,"status":"active","battery":55.8}
+{"t":37,"robot_id":"r6","x":529.6,"y":325.6,"status":"blocked","battery":31.2}
+{"t":37,"robot_id":"r7","x":264.4,"y":308.4,"status":"blocked","battery":94.2}
+{"t":37,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.7}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":38,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":38,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.7}
+{"t":38,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":38,"robot_id":"r4","x":147.1,"y":323.9,"status":"active","battery":92.9}
+{"t":38,"robot_id":"r5","x":64,"y":144.5,"status":"blocked","battery":55.8}
+{"t":38,"robot_id":"r6","x":529.6,"y":325.6,"status":"blocked","battery":31.2}
+{"t":38,"robot_id":"r7","x":264.4,"y":308.4,"status":"idle","battery":94.2}
+{"t":38,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":39,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72.1}
+{"t":39,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.7}
+{"t":39,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.4}
+{"t":39,"robot_id":"r4","x":144.5,"y":325.7,"status":"active","battery":92.8}
+{"t":39,"robot_id":"r5","x":64,"y":144.5,"status":"blocked","battery":55.8}
+{"t":39,"robot_id":"r6","x":529.6,"y":325.6,"status":"blocked","battery":31.2}
+{"t":39,"robot_id":"r7","x":264.4,"y":308.4,"status":"idle","battery":94.2}
+{"t":39,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+{"t":40,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":40,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.7}
+{"t":40,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.3}
+{"t":40,"robot_id":"r4","x":141.9,"y":327.5,"status":"active","battery":92.7}
+{"t":40,"robot_id":"r5","x":64,"y":144.5,"status":"blocked","battery":55.7}
+{"t":40,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.2}
+{"t":40,"robot_id":"r7","x":264.4,"y":308.4,"status":"idle","battery":94.1}
+{"t":40,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":41,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":41,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.7}
+{"t":41,"robot_id":"r3","x":405.7,"y":64.4,"status":"idle","battery":36.3}
+{"t":41,"robot_id":"r4","x":139.2,"y":329.2,"status":"active","battery":92.6}
+{"t":41,"robot_id":"r5","x":64,"y":144.5,"status":"blocked","battery":55.7}
+{"t":41,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":41,"robot_id":"r7","x":266.6,"y":307.7,"status":"active","battery":94}
+{"t":41,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+{"t":42,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":42,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":42,"robot_id":"r3","x":407.6,"y":66.8,"status":"active","battery":36.2}
+{"t":42,"robot_id":"r4","x":136.6,"y":331,"status":"active","battery":92.5}
+{"t":42,"robot_id":"r5","x":64,"y":144.5,"status":"blocked","battery":55.7}
+{"t":42,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":42,"robot_id":"r7","x":268.8,"y":307,"status":"active","battery":93.9}
+{"t":42,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":43,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":43,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":43,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.2}
+{"t":43,"robot_id":"r4","x":133.9,"y":332.8,"status":"active","battery":92.4}
+{"t":43,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.7}
+{"t":43,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":43,"robot_id":"r7","x":271,"y":306.2,"status":"active","battery":93.8}
+{"t":43,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.6}
+{"t":44,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":44,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":44,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.2}
+{"t":44,"robot_id":"r4","x":131.3,"y":334.6,"status":"active","battery":92.3}
+{"t":44,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.7}
+{"t":44,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":44,"robot_id":"r7","x":273.2,"y":305.5,"status":"active","battery":93.7}
+{"t":44,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.5}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":45,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":45,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":45,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.2}
+{"t":45,"robot_id":"r4","x":128.6,"y":336.4,"status":"active","battery":92.2}
+{"t":45,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.7}
+{"t":45,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":45,"robot_id":"r7","x":275.3,"y":304.8,"status":"active","battery":93.6}
+{"t":45,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+{"t":46,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":72}
+{"t":46,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":46,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.1}
+{"t":46,"robot_id":"r4","x":126,"y":338.2,"status":"on_mission","battery":92.1}
+{"t":46,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":46,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31.1}
+{"t":46,"robot_id":"r7","x":277.5,"y":304.1,"status":"active","battery":93.5}
+{"t":46,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":47,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.9}
+{"t":47,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.6}
+{"t":47,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.1}
+{"t":47,"robot_id":"r4","x":123.3,"y":340,"status":"on_mission","battery":92}
+{"t":47,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":47,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31.1}
+{"t":47,"robot_id":"r7","x":279.7,"y":303.4,"status":"active","battery":93.4}
+{"t":47,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+{"t":48,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.9}
+{"t":48,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.5}
+{"t":48,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.1}
+{"t":48,"robot_id":"r4","x":120.7,"y":341.7,"status":"on_mission","battery":91.9}
+{"t":48,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":48,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31.1}
+{"t":48,"robot_id":"r7","x":281.9,"y":302.6,"status":"active","battery":93.3}
+{"t":48,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":49,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.9}
+{"t":49,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.5}
+{"t":49,"robot_id":"r3","x":407.6,"y":66.8,"status":"blocked","battery":36.1}
+{"t":49,"robot_id":"r4","x":118,"y":343.5,"status":"on_mission","battery":91.8}
+{"t":49,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":49,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31}
+{"t":49,"robot_id":"r7","x":284.1,"y":301.9,"status":"active","battery":93.2}
+{"t":49,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+{"t":50,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.9}
+{"t":50,"robot_id":"r2","x":767,"y":116.2,"status":"idle","battery":67.5}
+{"t":50,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36.1}
+{"t":50,"robot_id":"r4","x":115.4,"y":345.3,"status":"active","battery":91.7}
+{"t":50,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":50,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31}
+{"t":50,"robot_id":"r7","x":286.3,"y":301.2,"status":"active","battery":93.1}
+{"t":50,"robot_id":"r8","x":661,"y":71.2,"status":"offline","battery":94.5}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":51,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.9}
+{"t":51,"robot_id":"r2","x":765.8,"y":119.2,"status":"active","battery":67.4}
+{"t":51,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36.1}
+{"t":51,"robot_id":"r4","x":112.8,"y":347.1,"status":"active","battery":91.6}
+{"t":51,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":51,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31}
+{"t":51,"robot_id":"r7","x":288.5,"y":300.5,"status":"active","battery":93}
+{"t":51,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.5}
+{"t":52,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.9}
+{"t":52,"robot_id":"r2","x":764.6,"y":122.2,"status":"active","battery":67.3}
+{"t":52,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":52,"robot_id":"r4","x":110.1,"y":348.9,"status":"active","battery":91.5}
+{"t":52,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.6}
+{"t":52,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31}
+{"t":52,"robot_id":"r7","x":290.7,"y":299.8,"status":"active","battery":92.9}
+{"t":52,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.5}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":53,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.9}
+{"t":53,"robot_id":"r2","x":763.4,"y":125.2,"status":"active","battery":67.2}
+{"t":53,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":53,"robot_id":"r4","x":107.5,"y":350.7,"status":"active","battery":91.4}
+{"t":53,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":53,"robot_id":"r6","x":529.6,"y":325.6,"status":"offline","battery":31}
+{"t":53,"robot_id":"r7","x":292.9,"y":299,"status":"active","battery":92.8}
+{"t":53,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+{"t":54,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.9}
+{"t":54,"robot_id":"r2","x":762.2,"y":128.2,"status":"active","battery":67.1}
+{"t":54,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":54,"robot_id":"r4","x":104.8,"y":352.5,"status":"on_mission","battery":91.3}
+{"t":54,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":54,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31}
+{"t":54,"robot_id":"r7","x":295.1,"y":298.3,"status":"on_mission","battery":92.7}
+{"t":54,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":55,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.8}
+{"t":55,"robot_id":"r2","x":761.1,"y":131.2,"status":"active","battery":67}
+{"t":55,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":55,"robot_id":"r4","x":102.2,"y":354.2,"status":"on_mission","battery":91.2}
+{"t":55,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":55,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31}
+{"t":55,"robot_id":"r7","x":297.3,"y":297.6,"status":"on_mission","battery":92.6}
+{"t":55,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+{"t":56,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.8}
+{"t":56,"robot_id":"r2","x":759.9,"y":134.2,"status":"active","battery":66.9}
+{"t":56,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":56,"robot_id":"r4","x":99.5,"y":356,"status":"on_mission","battery":91.1}
+{"t":56,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":56,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":31}
+{"t":56,"robot_id":"r7","x":299.5,"y":296.9,"status":"active","battery":92.5}
+{"t":56,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":57,"robot_id":"r1","x":585.7,"y":53.7,"status":"offline","battery":71.8}
+{"t":57,"robot_id":"r2","x":758.7,"y":137.2,"status":"active","battery":66.8}
+{"t":57,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":57,"robot_id":"r4","x":96.9,"y":357.8,"status":"on_mission","battery":91}
+{"t":57,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":57,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":30.9}
+{"t":57,"robot_id":"r7","x":301.6,"y":296.2,"status":"on_mission","battery":92.4}
+{"t":57,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+{"t":58,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.8}
+{"t":58,"robot_id":"r2","x":757.5,"y":140.2,"status":"active","battery":66.7}
+{"t":58,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":36}
+{"t":58,"robot_id":"r4","x":94.2,"y":359.6,"status":"on_mission","battery":90.8}
+{"t":58,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":58,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":30.9}
+{"t":58,"robot_id":"r7","x":303.8,"y":295.4,"status":"on_mission","battery":92.3}
+{"t":58,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":59,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.8}
+{"t":59,"robot_id":"r2","x":756.3,"y":143.2,"status":"active","battery":66.6}
+{"t":59,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":59,"robot_id":"r4","x":91.6,"y":361.4,"status":"on_mission","battery":90.7}
+{"t":59,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.5}
+{"t":59,"robot_id":"r6","x":529.6,"y":325.6,"status":"idle","battery":30.9}
+{"t":59,"robot_id":"r7","x":306,"y":294.7,"status":"on_mission","battery":92.2}
+{"t":59,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.4}
+{"t":60,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.8}
+{"t":60,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.6}
+{"t":60,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":60,"robot_id":"r4","x":88.9,"y":363.2,"status":"on_mission","battery":90.6}
+{"t":60,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":60,"robot_id":"r6","x":528.1,"y":326.2,"status":"active","battery":30.8}
+{"t":60,"robot_id":"r7","x":308.2,"y":294,"status":"on_mission","battery":92.1}
+{"t":60,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":61,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.8}
+{"t":61,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.6}
+{"t":61,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":61,"robot_id":"r4","x":86.3,"y":365,"status":"on_mission","battery":90.5}
+{"t":61,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":61,"robot_id":"r6","x":526.7,"y":326.9,"status":"active","battery":30.7}
+{"t":61,"robot_id":"r7","x":310.4,"y":293.3,"status":"on_mission","battery":92}
+{"t":61,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+{"t":62,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.8}
+{"t":62,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.6}
+{"t":62,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":62,"robot_id":"r4","x":83.7,"y":366.8,"status":"on_mission","battery":90.4}
+{"t":62,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":62,"robot_id":"r6","x":525.2,"y":327.5,"status":"on_mission","battery":30.6}
+{"t":62,"robot_id":"r7","x":312.6,"y":292.6,"status":"on_mission","battery":91.9}
+{"t":62,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":63,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.7}
+{"t":63,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.5}
+{"t":63,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":63,"robot_id":"r4","x":81,"y":368.5,"status":"on_mission","battery":90.3}
+{"t":63,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":63,"robot_id":"r6","x":523.8,"y":328.2,"status":"on_mission","battery":30.5}
+{"t":63,"robot_id":"r7","x":314.8,"y":291.8,"status":"active","battery":91.8}
+{"t":63,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+{"t":64,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.7}
+{"t":64,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.5}
+{"t":64,"robot_id":"r3","x":407.6,"y":66.8,"status":"idle","battery":35.9}
+{"t":64,"robot_id":"r4","x":78.4,"y":370.3,"status":"on_mission","battery":90.2}
+{"t":64,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":64,"robot_id":"r6","x":522.3,"y":328.8,"status":"on_mission","battery":30.4}
+{"t":64,"robot_id":"r7","x":317,"y":291.1,"status":"active","battery":91.7}
+{"t":64,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":65,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.7}
+{"t":65,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.5}
+{"t":65,"robot_id":"r3","x":409.5,"y":69.2,"status":"active","battery":35.8}
+{"t":65,"robot_id":"r4","x":75.7,"y":372.1,"status":"on_mission","battery":90.1}
+{"t":65,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.4}
+{"t":65,"robot_id":"r6","x":520.9,"y":329.5,"status":"on_mission","battery":30.3}
+{"t":65,"robot_id":"r7","x":319.2,"y":290.4,"status":"active","battery":91.6}
+{"t":65,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.3}
+{"t":66,"robot_id":"r1","x":585.7,"y":53.7,"status":"idle","battery":71.7}
+{"t":66,"robot_id":"r2","x":756.3,"y":143.2,"status":"blocked","battery":66.5}
+{"t":66,"robot_id":"r3","x":411.4,"y":71.7,"status":"active","battery":35.7}
+{"t":66,"robot_id":"r4","x":73.1,"y":373.9,"status":"on_mission","battery":90}
+{"t":66,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":66,"robot_id":"r6","x":519.4,"y":330.1,"status":"active","battery":30.2}
+{"t":66,"robot_id":"r7","x":321.4,"y":289.7,"status":"on_mission","battery":91.5}
+{"t":66,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.2}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":67,"robot_id":"r1","x":587.1,"y":55.6,"status":"active","battery":71.6}
+{"t":67,"robot_id":"r2","x":756.3,"y":143.2,"status":"idle","battery":66.5}
+{"t":67,"robot_id":"r3","x":413.3,"y":74.1,"status":"active","battery":35.6}
+{"t":67,"robot_id":"r4","x":70.4,"y":375.7,"status":"on_mission","battery":89.9}
+{"t":67,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":67,"robot_id":"r6","x":519.4,"y":330.1,"status":"blocked","battery":30.2}
+{"t":67,"robot_id":"r7","x":323.6,"y":289,"status":"on_mission","battery":91.3}
+{"t":67,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.2}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":68,"robot_id":"r1","x":588.5,"y":57.5,"status":"active","battery":71.5}
+{"t":68,"robot_id":"r2","x":756.3,"y":143.2,"status":"idle","battery":66.4}
+{"t":68,"robot_id":"r3","x":415.2,"y":76.5,"status":"active","battery":35.5}
+{"t":68,"robot_id":"r4","x":67.8,"y":377.5,"status":"on_mission","battery":89.7}
+{"t":68,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":68,"robot_id":"r6","x":519.4,"y":330.1,"status":"blocked","battery":30.1}
+{"t":68,"robot_id":"r7","x":325.8,"y":288.2,"status":"on_mission","battery":91.2}
+{"t":68,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.2}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":69,"robot_id":"r1","x":590,"y":59.3,"status":"active","battery":71.4}
+{"t":69,"robot_id":"r2","x":755.1,"y":146.2,"status":"active","battery":66.3}
+{"t":69,"robot_id":"r3","x":417.1,"y":78.9,"status":"active","battery":35.4}
+{"t":69,"robot_id":"r4","x":65.1,"y":379.3,"status":"on_mission","battery":89.6}
+{"t":69,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":69,"robot_id":"r6","x":519.4,"y":330.1,"status":"blocked","battery":30.1}
+{"t":69,"robot_id":"r7","x":327.9,"y":287.5,"status":"on_mission","battery":91.1}
+{"t":69,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.2}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":70,"robot_id":"r1","x":591.4,"y":61.2,"status":"active","battery":71.3}
+{"t":70,"robot_id":"r2","x":753.9,"y":149.2,"status":"active","battery":66.2}
+{"t":70,"robot_id":"r3","x":419,"y":81.3,"status":"active","battery":35.3}
+{"t":70,"robot_id":"r4","x":62.5,"y":381,"status":"on_mission","battery":89.5}
+{"t":70,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":70,"robot_id":"r6","x":519.4,"y":330.1,"status":"blocked","battery":30.1}
+{"t":70,"robot_id":"r7","x":330.1,"y":286.8,"status":"on_mission","battery":91}
+{"t":70,"robot_id":"r8","x":661,"y":71.2,"status":"idle","battery":94.2}
+{"t":71,"robot_id":"r1","x":592.9,"y":63.1,"status":"on_mission","battery":71.2}
+{"t":71,"robot_id":"r2","x":752.7,"y":152.2,"status":"active","battery":66.1}
+{"t":71,"robot_id":"r3","x":420.9,"y":83.7,"status":"active","battery":35.2}
+{"t":71,"robot_id":"r4","x":59.8,"y":382.8,"status":"on_mission","battery":89.4}
+{"t":71,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":71,"robot_id":"r6","x":519.4,"y":330.1,"status":"blocked","battery":30.1}
+{"t":71,"robot_id":"r7","x":332.3,"y":286.1,"status":"on_mission","battery":90.9}
+{"t":71,"robot_id":"r8","x":658.7,"y":73.2,"status":"active","battery":94.1}
+[simulator] connecting to ws://localhost:3001/ws/robots ...
+{"t":72,"robot_id":"r1","x":594.3,"y":65,"status":"on_mission","battery":71.1}
+{"t":72,"robot_id":"r2","x":751.5,"y":155.2,"status":"active","battery":66}
+{"t":72,"robot_id":"r3","x":422.7,"y":86.1,"status":"active","battery":35.1}
+{"t":72,"robot_id":"r4","x":57.2,"y":384.6,"status":"on_mission","battery":89.3}
+{"t":72,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.3}
+{"t":72,"robot_id":"r6","x":519.4,"y":330.1,"status":"idle","battery":30.1}
+{"t":72,"robot_id":"r7","x":334.5,"y":285.4,"status":"on_mission","battery":90.8}
+{"t":72,"robot_id":"r8","x":656.4,"y":75.1,"status":"active","battery":94}
+[simulator] ws error: 
+[simulator] connection lost — retrying in 2s ...
+{"t":73,"robot_id":"r1","x":595.7,"y":66.9,"status":"on_mission","battery":71}
+{"t":73,"robot_id":"r2","x":750.3,"y":158.2,"status":"active","battery":65.9}
+{"t":73,"robot_id":"r3","x":424.6,"y":88.5,"status":"active","battery":35}
+{"t":73,"robot_id":"r4","x":54.6,"y":386.4,"status":"on_mission","battery":89.2}
+{"t":73,"robot_id":"r5","x":64,"y":144.5,"status":"idle","battery":55.2}
+{"t":73,"robot_id":"r6","x":519.4,"y":330.1,"status":"idle","battery":30}
+{"t":73,"robot_id":"r7","x":336.7,"y":284.6,"status":"active","battery":90.7}
+{"t":73,"robot_id":"r8","x":654.1,"y":77.1,"status":"active","battery":93.9}
+Terminate batch job (Y/N)? 
+^C

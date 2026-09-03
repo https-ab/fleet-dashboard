@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: #020617; /* slate-950 */
+  color: #f1f5f9; /* slate-100 — base text color, so any element without an
+                      explicit color stays readable on the dark theme */
+}

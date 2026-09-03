@@ -1,0 +1,13 @@
+{
+  "name": "fleet-management",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulated robot fleet. Publishes robot reports to the backend over a WebSocket.",
+  "scripts": {
+    "start": "node simulator.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
