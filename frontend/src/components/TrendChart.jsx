@@ -1,24 +1,4 @@
-// TrendChart.jsx
-// =====================================================================
-// "How things are trending over time" — the assignment requires at
-// least one trend with window controls (a single number or a static
-// chart would not count).
-//
-// Metric: the FRACTION of the fleet that is working (active +
-// on_mission — the defensible "working" definition lives in
-// lib/statuses.js).
-//
-// How it works:
-//   * every time the fleet updates, we append ONE sample
-//     ({ t, working, total }) to a buffer kept in a ref
-//   * the buffer keeps the last 10 minutes (the biggest window)
-//   * the window buttons (30s / 2m / 10m) just choose which slice of
-//     the buffer to draw — no data is thrown away when you zoom
-//   * drawn on a canvas, like the map: cheap at any fleet size
-//
-// The buffer lives in the browser, so it restarts on page reload.
-// (Server-side history was a deliberate scope cut — see FINDINGS.md.)
-// =====================================================================
+
 
 import { useEffect, useRef, useState } from "react";
 import { WORKING_STATUSES } from "../lib/statuses.js";
@@ -26,7 +6,7 @@ import { WORKING_STATUSES } from "../lib/statuses.js";
 const W = 900;
 const H = 220;
 const PAD = { top: 10, right: 40, bottom: 22, left: 10 };
-const MAX_WINDOW_MS = 10 * 60 * 1000; // buffer always keeps 10 minutes
+const MAX_WINDOW_MS = 10 * 60 * 1000; 
 
 const WINDOWS = [
   { label: "30s", ms: 30 * 1000 },
@@ -36,10 +16,9 @@ const WINDOWS = [
 
 export default function TrendChart({ robots }) {
   const canvasRef = useRef(null);
-  const samplesRef = useRef([]); // [{ t, working, total }]
-  const [windowMs, setWindowMs] = useState(WINDOWS[1].ms); // default: 2m
+  const samplesRef = useRef([]);
+  const [windowMs, setWindowMs] = useState(WINDOWS[1].ms); 
 
-  // Latest props for draw() (same pattern as SiteMap).
   const windowRef = useRef(windowMs);
   windowRef.current = windowMs;
 
@@ -74,7 +53,7 @@ export default function TrendChart({ robots }) {
     ctx.fillText(timeLabel(t0), PAD.left, H - 7);
     ctx.fillText("now", W - PAD.right - 26, H - 7);
 
-    // the line: fraction working, over the visible window
+
     const pts = samplesRef.current.filter((s) => s.t >= t0);
     if (pts.length < 2) {
       ctx.fillStyle = "rgba(148, 163, 184, 0.5)";
@@ -95,7 +74,6 @@ export default function TrendChart({ robots }) {
     ctx.stroke();
   }
 
-  // Append a sample for the current fleet, prune old ones, repaint.
   useEffect(() => {
     const now = Date.now();
     const working = robots.filter((r) =>
@@ -107,7 +85,7 @@ export default function TrendChart({ robots }) {
     draw();
   }, [robots]);
 
-  // Repaint when the window button changes (no new data needed).
+
   useEffect(() => {
     draw();
   }, [windowMs]);

@@ -1,20 +1,4 @@
-// AdminControls.jsx
-// =====================================================================
-// The UI for the LIVE CONTROLS — the assignment requires fleet size
-// and update interval to be changeable on the deployed instance
-// WITHOUT a redeploy, through a documented, sensibly-protected
-// control.
-//
-// Flow:
-//   * on mount, GET /api/config prefills the current values
-//   * Apply sends POST /api/config with the x-control-token header
-//     (the token is the backend's CONTROL_TOKEN env var; default in
-//     dev is "dev-token-change-me")
-//   * the backend validates the token (401) and the limits (400),
-//     then tells the simulators to apply it — no restart anywhere
-//
-// Leave a field EMPTY to leave that setting unchanged.
-// =====================================================================
+
 
 import { useEffect, useState } from "react";
 
@@ -22,9 +6,9 @@ export default function AdminControls() {
   const [token, setToken] = useState("");
   const [fleetSize, setFleetSize] = useState("");
   const [updateIntervalMs, setUpdateIntervalMs] = useState("");
-  const [status, setStatus] = useState(null); // { ok, msg }
+  const [status, setStatus] = useState(null); 
 
-  // Prefill with the current live config.
+ 
   useEffect(() => {
     fetch("/api/config")
       .then((r) => r.json())
@@ -37,7 +21,7 @@ export default function AdminControls() {
 
   function apply() {
     setStatus(null);
-    // Only send fields the operator actually filled in.
+    
     const body = {};
     if (fleetSize !== "") body.fleetSize = Number(fleetSize);
     if (updateIntervalMs !== "") body.updateIntervalMs = Number(updateIntervalMs);

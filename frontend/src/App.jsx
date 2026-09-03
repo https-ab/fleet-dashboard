@@ -1,14 +1,4 @@
-// App.jsx
-// =====================================================================
-// FINAL LAYOUT of the dashboard:
-//   - header: title, LIVE/RECONNECTING badge, robot count
-//   - status chips (double as the map legend)
-//   - left:  site map + detail panel for the selected robot
-//   - right: trend chart, robot list, live controls
-//
-// All live data comes from ONE place: useFleet() (the WebSocket feed).
-// Nothing in this file talks to the backend directly.
-// =====================================================================
+
 
 import { useState } from "react";
 import { useFleet } from "./hooks/useFleet.js";
@@ -45,7 +35,7 @@ export default function App() {
         {robots.length} robots reporting
       </p>
 
-      {/* the status chips double as the map legend */}
+      
       <div className="flex flex-wrap gap-2 mb-5">
         {Object.entries(counts).map(([status, n]) => (
           <span
@@ -89,7 +79,7 @@ export default function App() {
   );
 }
 
-// { status -> how many robots }
+
 function countByStatus(robots) {
   const counts = {};
   for (const r of robots) counts[r.status] = (counts[r.status] || 0) + 1;

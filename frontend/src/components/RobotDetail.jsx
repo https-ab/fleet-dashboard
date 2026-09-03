@@ -1,9 +1,4 @@
-// RobotDetail.jsx
-// =====================================================================
-// The panel for the SELECTED robot: "see enough about it to decide
-// what to do next" — status, battery, position, how fresh the data
-// is, and the attention reason when one exists. Shown below the map.
-// =====================================================================
+
 
 import {
   STATUS_COLORS,
@@ -22,8 +17,7 @@ export default function RobotDetail({ robot, onClose }) {
   }
 
   const reason = attentionReason(robot);
-  // How many seconds since the backend last heard from this robot.
-  // (Re-renders happen every update, so this stays current.)
+
   const secsAgo = Math.max(
     0,
     Math.round((Date.now() - robot.lastSeen) / 1000)

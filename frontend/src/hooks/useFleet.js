@@ -1,30 +1,17 @@
-// useFleet.js
-// =====================================================================
-// The dashboard's live data connection. One hook:
-//   const { robots, connected } = useFleet();
-//
-// - Opens a WebSocket to the backend (relative url "/ws/robots" — the
-//   Vite proxy handles dev, same-origin handles production).
-// - On (re)connect the backend sends a full "snapshot" — so a dropped
-//   connection heals itself: we just wait for the next snapshot.
-// - "update" messages carry only the robots that changed; we merge them
-//   into a Map (O(1)) and publish an array to React.
-// - On close, reconnect with exponential backoff: 1s, 2s, 4s ... up to
-//   10s. A clean connection resets the backoff.
-// =====================================================================
+
 
 import { useEffect, useRef, useState } from "react";
 
 export function useFleet() {
   const [robots, setRobots] = useState([]);
   const [connected, setConnected] = useState(false);
-  // The Map is the fast store; React gets an array each time it changes.
-  const mapRef = useRef(new Map()); // robot_id -> robot
+
+  const mapRef = useRef(new Map()); 
 
   useEffect(() => {
     let ws;
     let stopped = false;
-    let retryIn = 1000; // current backoff, doubles up to 10s
+    let retryIn = 1000; 
     let retryTimer;
 
     function applySnapshot(list) {
@@ -45,7 +32,7 @@ export function useFleet() {
       ws = new WebSocket(`${proto}://${window.location.host}/ws/robots`);
 
       ws.onopen = () => {
-        retryIn = 1000; // clean connection — reset backoff
+        retryIn = 1000; 
         setConnected(true);
       };
 
@@ -55,21 +42,12 @@ export function useFleet() {
         else if (msg.type === "update") applyUpdates(msg.robots);
       };
 
-      // onerror always leads to onclose, so all retry logic lives here.
-      ws.onclose = () => {
-        setConnected(false);
-        if (!stopped) {
-          retryTimer = setTimeout(connect, retryIn);
-          retryIn = Math.min(retryIn * 2, 10000);
-        }
-      };
-
       ws.onerror = () => ws.close();
     }
 
     connect();
 
-    // Cleanup when the component unmounts.
+   
     return () => {
       stopped = true;
       clearTimeout(retryTimer);
