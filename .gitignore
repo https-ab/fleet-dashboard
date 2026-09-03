@@ -1,0 +1,9 @@
+# dependencies (each folder installs its own)
+node_modules/
+
+# built frontend (created by npm run build)
+frontend/dist/
+
+# logs and OS junk
+*.log
+.DS_Store
