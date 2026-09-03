@@ -1,20 +1,10 @@
-// state.test.js
-// =====================================================================
-// Tests for the TRICKIEST part of the system: FleetState.
-// This is the logic that caused a real bug during development (a
-// restarted simulator's fresh data was swallowed by the out-of-order
-// guard), so it gets explicit coverage.
-//
-// Run with:  npm test     (which runs `node --test` — that's Node's
-// BUILT-IN test runner; no extra packages to install)
-// =====================================================================
+
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { FleetState } from "./state.js";
 
-// A fresh state for every test (tests must not share state with each
-// other). knownTypes mimics the real backend: r1 is a "picker".
+
 function makeState() {
   return new FleetState({
     staleAfterMs: 5000,
@@ -58,7 +48,7 @@ test("an OLDER report from the SAME session is ignored (out-of-order guard)", ()
 });
 
 test("a report from a NEW session (simulator restart, t back to 0) is accepted", () => {
-  // This is the bug that bit us in development: the restart detector.
+
   const s = makeState();
   s.ingest(report("r1", 50, 10), 1); // old session had t=50
   const { robot, ignored } = s.ingest(report("r1", 0, 20), 2); // new session, t restarted at 0
