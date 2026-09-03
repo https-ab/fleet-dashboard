@@ -1,0 +1,11 @@
+{
+  "name": "fleet-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fleet Management Dashboard - SDE-1 hiring challenge (Peppermint Robotics)",
+  "scripts": {
+    "build": "npm --prefix simulator install && npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/server.js"
+  }
+}
